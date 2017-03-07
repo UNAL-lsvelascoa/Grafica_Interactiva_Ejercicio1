@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+﻿@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
 @import url(http://fonts.googleapis.com/css?family=Volkhov:400italic);
 /* var text-decoration */
@@ -143,6 +143,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #intro .block img {
   padding-left: 40px;
+  padding-right: 40px;
   width: 100%;
 }
 #intro .section-title {
@@ -152,9 +153,38 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-top: 20px;
 }
 /*--
+	wrapper Intro2 
+--*/
+#intro2 {
+  background: linear-gradient(to left, #8b86a3, #322e40);
+  padding: 100px 0;
+}
+#intro2 .block h2 {
+  padding-top: 35px;
+  line-height: 27px;
+  margin: 0;
+  color: #FFFFFF;
+}
+#intro2 .block p {
+  color: #D0D0D0;
+  padding-top: 20px;
+}
+#intro2 .block img {
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 100%;
+}
+#intro2 .section-title {
+  margin-bottom: 0px;
+}
+#intro2 .section-title p {
+  padding-top: 20px;
+}
+
+/*--
 	service Start 
 --*/
-#service {
+#service {  
   text-align: center;
   padding: 90px 0;
 }
