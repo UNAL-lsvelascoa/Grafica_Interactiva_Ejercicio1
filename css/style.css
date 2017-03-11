@@ -90,7 +90,7 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #slider {
   background-attachment: fixed;
-  background-position: 10% 0%;
+  background-position: center center;
   padding: 200px 0 280px 0;
   position: relative;
 }
@@ -211,6 +211,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #presentation {
   background-size: cover;
   background-attachment: inherit;
+  background-position: center center;
   padding: 70px 0px;
   position: relative;
   text-align: center;
@@ -251,7 +252,6 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #feature {
   background: url("../img/background2.jpg");
-  background-position: 50% 94px;
   width: 100%;
   display: block;
   position: relative;
@@ -377,8 +377,9 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider-work Start 
 --*/
 #global-header {
-  background: url("../img/slider-bg2.jpg") no-repeat;
+  background: url("../img/background3.jpg") no-repeat;
   background-size: cover;
+  background-position:center center;
   padding-top: 150px;
   padding-bottom: 107px;
   position: relative;
@@ -399,7 +400,6 @@ font header .navbar-default .navbar-nav li a:hover {
 #global-header .block {
   color: #E3E3E4;
   margin: 0 auto;
-  padding-left: 90px;
   text-align: center;
 }
 #global-header .block h1 {
